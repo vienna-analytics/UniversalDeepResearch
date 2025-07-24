@@ -1,0 +1,1 @@
+npm run dev > npm_run_dev.txt 2>&1 & disown $!

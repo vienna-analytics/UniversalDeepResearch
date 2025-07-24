@@ -1,0 +1,35 @@
+DISCLAIMER
+
+IMPORTANT NOTICE - RESEARCH DEMONSTRATION PROTOTYPE
+
+This software and all associated code, documentation, and materials (collectively, the "Software") are provided solely for research and demonstration purposes. The Software is intended exclusively as a prototype to demonstrate research concepts and methodologies in the field of artificial intelligence and automated research systems.
+
+CRITICAL LIMITATIONS AND WARNINGS:
+
+1. RESEARCH PURPOSE ONLY: The Software is designed and intended solely for academic research, educational demonstration, and experimental purposes. It is NOT intended for production use, commercial deployment, or any real-world application.
+
+2. NO PRODUCTION USE: Under no circumstances should this Software be deployed, used, or relied upon in any production environment, commercial application, or any context where reliability, accuracy, or safety is required.
+
+3. EXPERIMENTAL NATURE: The Software contains experimental features, unproven methodologies, and research-grade implementations that may contain bugs, security vulnerabilities, or other issues that could cause data loss, system instability, or other problems.
+
+4. NO WARRANTIES: THE SOFTWARE IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR ACCURACY.
+
+5. NO LIABILITY: TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, NEITHER NVIDIA CORPORATION, NOR THE AUTHORS, CONTRIBUTORS, OR ANY OTHER PARTIES INVOLVED IN THE CREATION, PRODUCTION, OR DELIVERY OF THE SOFTWARE SHALL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, LOSS OF USE, DATA, OR PROFITS, OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+6. NO SUPPORT: No technical support, maintenance, updates, or assistance is provided for this Software. Users are solely responsible for their use of the Software and any consequences thereof.
+
+7. NO ENDORSEMENT: The inclusion of any third-party components, APIs, or services does not constitute an endorsement of those services or their providers.
+
+8. COMPLIANCE: Users are responsible for ensuring their use of the Software complies with all applicable laws, regulations, and terms of service for any third-party services or APIs used by the Software.
+
+9. SECURITY: The Software has not been subjected to security audits or testing suitable for production environments. Users assume all risks associated with security vulnerabilities.
+
+10. DATA PRIVACY: The Software may process, transmit, or store data in ways that do not comply with data protection regulations. Users are responsible for ensuring compliance with applicable privacy laws.
+
+ACKNOWLEDGMENT:
+
+By using, copying, modifying, or distributing the Software, you acknowledge that you have read, understood, and agree to be bound by the terms of this disclaimer. If you do not agree to these terms, you must not use the Software.
+
+For questions regarding this disclaimer, please contact the authors through the appropriate channels established for this research project.
+
+Last updated: 07/15/2025.

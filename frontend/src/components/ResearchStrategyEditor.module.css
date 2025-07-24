@@ -1,0 +1,125 @@
+/*
+ * SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+.strategyContainer {
+  position: relative;
+  width: 100%;
+  max-width: 42rem;
+}
+
+.strategyBody {
+  position: relative;
+  width: 100%;
+}
+
+.strategyTextarea {
+  width: 100%;
+  padding: 1rem;
+  padding-right: 3rem;
+  background-color: rgb(243 244 246);
+  border-radius: 1rem;
+  border: none;
+  resize: none;
+  overflow: auto;
+  min-height: 15rem;
+  max-height: 20rem;
+  color: rgb(17 24 39);
+  transition: all 0.2s ease-in-out;
+  line-height: 1.5;
+}
+
+.strategyTextarea:hover {
+  background-color: rgb(229 231 235);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.strategyTextarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(209 213 219);
+  background-color: rgb(243 244 246);
+}
+
+.strategyTextarea::placeholder {
+  color: rgb(107 114 128);
+}
+
+.strategyTextarea.disabled {
+  background-color: rgb(229 231 235);
+  color: rgb(156 163 175);
+  cursor: not-allowed;
+}
+
+.strategyTextarea.disabled:hover {
+  background-color: rgb(229 231 235);
+  box-shadow: none;
+}
+
+.strategyFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.shortcutHint {
+  position: relative;
+  font-size: 0.75rem;
+  color: rgb(107 114 128);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.shortcutHint.visible {
+  opacity: 1;
+}
+
+.strategyButtons {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.75rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 1;
+}
+
+.strategyButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  color: rgb(156 163 175);
+}
+
+.strategyButton:hover:not(:disabled) {
+  background-color: rgb(229 231 235);
+}
+
+.strategyButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
