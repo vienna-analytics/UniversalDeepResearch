@@ -2,19 +2,13 @@
 
 A FastAPI-based backend service that provides intelligent research and reporting capabilities using large language models and web search APIs. The system can perform comprehensive research on user queries, aggregate findings, and generate detailed reports.
 
-**⚠️ CRITICAL NOTICE: RESEARCH DEMONSTRATION PROTOTYPE ⚠️**
+This software is provided exclusively for research and demonstration purposes. It is intended solely as a prototype to demonstrate research concepts and methodologies in artificial intelligence and automated research systems.
 
-This software is provided **EXCLUSIVELY** for research and demonstration purposes. It is intended solely as a prototype to demonstrate research concepts and methodologies in artificial intelligence and automated research systems.
+- This software is not intended for production deployment, commercial use, or any real-world application where reliability, accuracy, or safety is required.
+- This software contains experimental features, unproven methodologies, and research-grade implementations that may contain bugs, security vulnerabilities, or other issues.
+- The software is provided "AS IS" without any warranties. Neither NVIDIA Corporation nor the authors shall be liable for any damages arising from the use of this software to the fullest extent permitted by law.
 
-**IMPORTANT WARNINGS:**
-
-- **NOT FOR PRODUCTION USE**: This software is NOT intended for production deployment, commercial use, or any real-world application where reliability, accuracy, or safety is required.
-- **EXPERIMENTAL NATURE**: Contains experimental features, unproven methodologies, and research-grade implementations that may contain bugs, security vulnerabilities, or other issues.
-- **NO WARRANTIES OR LIABILITY**: The software is provided "AS IS" without any warranties. Neither NVIDIA Corporation nor the authors shall be liable for any damages arising from the use of this software to the fullest extent permitted by law.
-
-**By using this software, you acknowledge that you have read and understood the complete DISCLAIMER file and agree to be bound by its terms.**
-
-For the complete legal disclaimer, please see the [DISCLAIMER](DISCLAIMER.txt) file in this directory.
+By using this software, you acknowledge that you have read and understood the complete DISCLAIMER file and agree to be bound by its terms. For the complete legal disclaimer, please see the [DISCLAIMER](DISCLAIMER.txt) file in this directory.
 
 ## Features
 
@@ -24,7 +18,7 @@ For the complete legal disclaimer, please see the [DISCLAIMER](DISCLAIMER.txt) f
 - **Session Management**: Persistent research sessions with unique identifiers
 - **Flexible Architecture**: Modular design with configurable components
 - **Dry Run Mode**: Testing capabilities with mock data
-- **Advanced Framing**: Custom FrameV4 system for complex reasoning tasks
+- **Advanced Framing**: Custom FrameV4 system for increased reliability of instruction following across all models
 
 ## Architecture
 
@@ -33,7 +27,7 @@ The backend consists of several key components:
 - **`main.py`**: FastAPI application with research endpoints
 - **`scan_research.py`**: Core research and reporting logic
 - **`clients.py`**: LLM and search API client management
-- **`frame/`**: Advanced reasoning framework (FrameV4)
+- **`frame/`**: Advanced reliability framework (FrameV4)
 - **`items.py`**: Data persistence utilities
 - **`sessions.py`**: Session key generation and management
 
@@ -262,7 +256,7 @@ Main research endpoint that performs research and generates reports.
 
 ### POST `/api/research2`
 
-Advanced research endpoint using FrameV4 system.
+Advanced reliability framework endpoint using FrameV4 system. This is the endpoint that supports custom user deep research strategies.
 
 **Request Body**:
 

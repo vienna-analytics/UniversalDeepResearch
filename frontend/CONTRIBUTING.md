@@ -1,4 +1,4 @@
-# Contributing to Universal Deep Research
+# Contributing to Universal Deep Research Frontend
 
 This code details a research and demonstration prototype. This software is not intended for production use.
 
@@ -8,15 +8,15 @@ This code details a research and demonstration prototype. This software is not i
 
 ```bash
 git clone <your-fork-url>
-cd backend
+cd frontend
 ```
 
 ### 2. Set Up Development Environment
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
+npm install
+# or
+yarn install
 ```
 
 ### 3. Make Changes
@@ -28,8 +28,9 @@ pip install -r requirements.txt
 
 ### 4. Testing
 
-- Test API endpoints manually
-- Verify configuration changes work correctly
+- Test components manually in development mode
+- Verify UI changes work correctly across different screen sizes
+- Ensure accessibility standards are maintained
 
 ### 5. Submit Pull Request
 
@@ -39,15 +40,42 @@ pip install -r requirements.txt
 
 ## Code Standards
 
-- **Python**: Follow PEP 8 style guidelines
-- **Documentation**: Use clear docstrings and comments
-- **Error Handling**: Implement proper exception handling
+- **TypeScript**: Follow TypeScript best practices and strict mode
+- **React**: Use functional components with hooks
+- **Next.js**: Follow Next.js 13+ App Router conventions
+- **CSS**: Use CSS modules for component styling
+- **Documentation**: Use clear JSDoc comments and inline documentation
+- **Error Handling**: Implement proper error boundaries and error states
 - **Configuration**: Use environment variables for customization
-- **Logging**: Use appropriate log levels and messages
+- **Accessibility**: Follow WCAG guidelines and use semantic HTML
+
+## Development Commands
+
+```bash
+# Start development server
+npm run dev
+# or
+yarn dev
+
+# Build for production
+npm run build
+# or
+yarn build
+
+# Run linting
+npm run lint
+# or
+yarn lint
+
+# Run type checking
+npm run type-check
+# or
+yarn type-check
+```
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the same terms as this project (research/demonstration use only). You can find the license in [LICENSE](LICENSE.txt).
+By contributing, you agree that your contributions will be licensed under the same terms as this project (research/demonstration use only). You can find the license in [LICENSE](../LICENSE.txt).
 
 #### Signing Your Work
 

@@ -2,9 +2,7 @@
 
 A prototype research system that combines user-defined strategies, intelligent web search, content analysis, and automated report generation using large language models. This repository contains both the backend API service and frontend web interface.
 
-**⚠️ PROTOTYPE NOTICE ⚠️**
-
-This is a research demonstration prototype and should not be used for production purposes. The software contains experimental features and research-grade implementations.
+As mentioned above, this is a research demonstration prototype and should not be used for production purposes. The software contains experimental features and research-grade implementations.
 
 ## Project Structure
 
@@ -14,7 +12,7 @@ This is a research demonstration prototype and should not be used for production
 │   ├── README.md     # Backend setup and configuration
 │   ├── main.py       # FastAPI application
 │   ├── scan_research.py  # Core research logic
-│   ├── frame/        # Advanced reasoning framework
+│   ├── frame/        # Advanced reliability framework
 │   └── ...
 ├── frontend/         # Next.js frontend application
 │   ├── README.md     # Frontend setup and configuration
@@ -72,15 +70,14 @@ See [frontend/README.md](frontend/README.md) for detailed setup instructions, in
    ```
 
 3. **Access the application**:
-   Open your browser and navigate to `http://localhost:3000`
+   Open your browser and navigate to `http://localhost:3000` or similar as output by the terminal.
 
 ## Features
 
-- **Intelligent Research**: Automated web search and content analysis
+- **Intelligent Research**: User-configurable research strategies
 - **Real-time Progress**: Live updates during research and report generation
 - **Interactive Interface**: Modern web UI for research queries and results
 - **Multi-Model Support**: Configurable LLM backends
-- **Advanced Framing**: Custom reasoning framework for complex tasks
 
 ## Documentation
 

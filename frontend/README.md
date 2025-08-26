@@ -2,19 +2,13 @@
 
 A Next.js frontend application for the NVR Universal Deep Research system that provides an interactive interface for intelligent research and reporting capabilities.
 
-**⚠️ CRITICAL NOTICE: RESEARCH DEMONSTRATION PROTOTYPE ⚠️**
+This software is provided exclusively for research and demonstration purposes. It is intended solely as a prototype to demonstrate research concepts and methodologies in artificial intelligence and automated research systems.
 
-This software is provided **EXCLUSIVELY** for research and demonstration purposes. It is intended solely as a prototype to demonstrate research concepts and methodologies in artificial intelligence and automated research systems.
+- This software is not intended for production deployment, commercial use, or any real-world application where reliability, accuracy, or safety is required.
+- This software contains experimental features, unproven methodologies, and research-grade implementations that may contain bugs, security vulnerabilities, or other issues.
+- The software is provided "AS IS" without any warranties. Neither NVIDIA Corporation nor the authors shall be liable for any damages arising from the use of this software to the fullest extent permitted by law.
 
-**IMPORTANT WARNINGS:**
-
-- **NOT FOR PRODUCTION USE**: This software is NOT intended for production deployment, commercial use, or any real-world application where reliability, accuracy, or safety is required.
-- **EXPERIMENTAL NATURE**: Contains experimental features, unproven methodologies, and research-grade implementations that may contain bugs, security vulnerabilities, or other issues.
-- **NO WARRANTIES OR LIABILITY**: The software is provided "AS IS" without any warranties. Neither NVIDIA Corporation nor the authors shall be liable for any damages arising from the use of this software to the fullest extent permitted by law.
-
-**By using this software, you acknowledge that you have read and understood the complete DISCLAIMER file and agree to be bound by its terms.**
-
-For the complete legal disclaimer, please see the [DISCLAIMER](../backend/DISCLAIMER.txt) file in the backend directory.
+By using this software, you acknowledge that you have read and understood the complete DISCLAIMER file and agree to be bound by its terms. For the complete legal disclaimer, please see the [DISCLAIMER](DISCLAIMER.txt) file in this directory.
 
 ## Features
 
